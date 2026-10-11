@@ -1,20 +1,7 @@
 # Python---Survey-Feedback-Analyzer
 A Python-based analytical tool built to process, clean, and extract insights from customer survey feedback. This project demonstrates core Python programming concepts using fundamental data structures without relying on external libraries like Pandas.
 
-📑 Table of Contents
-Features
-
-Dataset Structure
-
-How It Works
-
-Getting Started
-
-Sample Output
-
-Key Python Concepts Used
-
-✨ Features
+### ✨ Features
 Interactive Data Entry: Dynamically add new feedback entries with auto-incrementing serial numbers (S_No) and input validation for ratings (1–5).
 
 Automated Text Cleaning: Normalizes feedback text by:
@@ -37,7 +24,7 @@ Extracts a deduplicated list of unique vocabulary used across all entries.
 
 Data Sorting (Optional Feature): Ranks customer feedback entries from highest to lowest rating using zip() and sorted().
 
-🗂️ Dataset Structure
+### 🗂️ Dataset Structure
 The project stores survey responses using a dictionary of lists:
 
 Python
