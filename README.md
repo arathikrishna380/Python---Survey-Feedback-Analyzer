@@ -2,27 +2,27 @@
 A Python-based analytical tool built to process, clean, and extract insights from customer survey feedback. This project demonstrates core Python programming concepts using fundamental data structures without relying on external libraries like Pandas.
 
 ### ✨ Features
-Interactive Data Entry: Dynamically add new feedback entries with auto-incrementing serial numbers (S_No) and input validation for ratings (1–5).
+* Interactive Data Entry: Dynamically add new feedback entries with auto-incrementing serial numbers (S_No) and input validation for ratings (1–5).
 
-Automated Text Cleaning: Normalizes feedback text by:
+* Automated Text Cleaning: Normalizes feedback text by:
 
-Converting text to lowercase
+       Converting text to lowercase
 
-Stripping punctuation (., ,, !, ?)
+       Stripping punctuation (., ,, !, ?)
 
-Collapsing multiple spaces into a single space
+       Collapsing multiple spaces into a single space
 
-Word Count Insights: Uses custom functions to calculate exact word frequencies across feedback entries (e.g., "good", "poor", "excellent").
+* Word Count Insights: Uses custom functions to calculate exact word frequencies across feedback entries (e.g., "good", "poor", "excellent").
 
-Statistical Metrics: Computes overall average customer ratings.
+* Statistical Metrics: Computes overall average customer ratings.
 
-Text Analysis:
+* Text Analysis:
 
-Identifies the longest feedback comment based on word count.
+       Identifies the longest feedback comment based on word count.
 
-Extracts a deduplicated list of unique vocabulary used across all entries.
+       Extracts a deduplicated list of unique vocabulary used across all entries.
 
-Data Sorting (Optional Feature): Ranks customer feedback entries from highest to lowest rating using zip() and sorted().
+* Data Sorting (Optional Feature): Ranks customer feedback entries from highest to lowest rating using zip() and sorted().
 
 ### 🗂️ Dataset Structure
 The project stores survey responses using a dictionary of lists:
