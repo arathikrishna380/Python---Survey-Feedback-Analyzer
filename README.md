@@ -34,3 +34,14 @@ feedback_data = {
     'Feedback': ['Very GOOD Service!!!', 'poor support, not happy ', ...],
     'Rating': [5, 2, 5, ...]
 }
+### Key Python Concepts Used
+
+* Data Structures: Dictionaries, Lists, Sets, Tuples
+
+* Control Flow: for loops, while loops, if-elif-else conditionals
+
+* Functions: User-defined functions with parameter passing and returns
+
+* String Operations: .lower(), .replace(), .split(), ' '.join()
+
+* Data Manipulation: zip(), sorted(), lambda functions, exception handling (try-except)
